@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jarvisai/static/css/main.31497150.css",
+    "main.js": "/jarvisai/static/js/main.33fdbfb3.js",
+    "index.html": "/jarvisai/index.html",
+    "main.31497150.css.map": "/jarvisai/static/css/main.31497150.css.map",
+    "main.33fdbfb3.js.map": "/jarvisai/static/js/main.33fdbfb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31497150.css",
+    "static/js/main.33fdbfb3.js"
+  ]
+}
