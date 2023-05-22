@@ -1,0 +1,289 @@
+*{
+  color: white;
+  font-family:"Lucida Console", "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen",
+  "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+ 
+ .name{
+   font-size: 34px;
+   margin-top: 60px;
+ }
+ 
+ .grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(4, auto);
+   margin-top: 75px;
+   margin-left: 150px; /* Move the grid to the right */
+   margin-right: 150px; /* Move the grid to the left */
+   
+ }
+ 
+ .grid-item {
+   padding: 5px;
+   margin-bottom: 1px;
+ }
+ 
+ .e1, .e2, .e3, .c1, .c2, .c3, .l1, .l2, .l3 {
+   background-color: #74B0FF;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 14px;
+   height: 30px;
+   justify-content: center;
+   text-align: center;
+ }
+ 
+ .font1, .font2, .heart{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 12px;
+ }
+ 
+ .input-field::placeholder {
+   color: white; /* Change the color of the placeholder text */
+ }
+ 
+ 
+ body{
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .app {
+   background-color: #438EF2;
+   display: flex;
+ }
+ 
+ .side-bar{
+   background-color: #1E69CB;  
+   height: 100vh;
+   width: 244px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+ 
+ }
+ 
+ button{ 
+     border: solid 0.5px white;
+     background-color: transparent;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px;
+     margin-top: 20px;
+   }
+ 
+ nav{
+   
+   padding: 10px;
+   margin: 10px;
+ }
+ 
+ .history{
+   padding: 10px;
+   margin: 10px;
+   height: 100%;
+   text-transform: capitalize;
+ }
+ 
+ .history li {
+   list-style-type: none;
+   padding: 15px 0;
+   cursor: pointer;
+ }
+ 
+ 
+ .main {
+   flex: 1; /* Take remaining space */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .info{
+   color: white;
+   font-size: 14px;
+   
+   display: flex;
+ }  
+ 
+ .bottom-section{
+  position: sticky;
+  padding: 20px;
+  margin-top: 20px;
+  bottom: 0;
+  display: flex;   
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+   
+ }
+ 
+ .input-container{
+   position: relative;
+   width: 100%;
+   max-width: 650px;
+ }
+ 
+ 
+ input{
+   width: 100%;
+   border: none;
+   font-size: 20px;
+   background-color: #1E69CB;
+   padding: 12px 15px;
+   border-radius: 5px;
+   box-shadow: rgba(0,0,0, 0.05) 0 54px 55px,
+               rgba(0,0,0, 0.05) 0 -12px 30px,
+               rgba(0,0,0, 0.05) 0 4px 6px,
+               rgba(0,0,0, 0.05) 0 124px 3px,
+               rgba(0,0,0, 0.05) 0 -3px 5px;
+  
+ 
+ }
+ 
+ input:focus {
+   outline: none;
+ }
+ 
+ #submit{
+   position: absolute;
+   bottom: 15px;
+   right: 0;
+   cursor: pointer;
+ 
+ }
+
+ 
+ .feed{
+  height: 600px;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 0;
+
+ }
+
+ .centered-content{
+  height: 600px;
+ }
+ 
+ .feed li {
+   flex: 1;
+   display: flex;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 5px;
+   background-color: #2D78DB;
+ }
+ 
+ .feed p{
+   color: white;
+   font-size: 14px;
+   text-align: left;
+ }
+ 
+ .feed p.role {
+   min-width: 100px;
+ }
+ 
+ .history li {
+   list-style-type: none;
+   padding: 15px 0;
+   cursor: pointer;
+   border-bottom: 1px solid #ccc; /* Add a border to each title */
+ }
+ 
+ .history li.active {
+   border-color: #74B0FF; /* Change the border color for the active title */
+ }
+
+ @media only screen 
+ and (device-width: 320px) 
+ and (device-height: 568px) 
+ and (-webkit-device-pixel-ratio: 2) {
+
+  .bottom-section{
+    bottom: 0 !important;
+   }
+
+ }
+
+@media only screen and (max-width: 768px) {
+  
+  .name{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .grid{
+    margin-top: 30px;
+    margin-left: 0px; /* Move the grid to the right */
+    margin-right: 0px; /* Move the grid to the left */
+  }
+
+  .side-bar{
+    display: none;
+
+}
+
+.e1, .e2, .e3, .c1, .c2, .c3, .l1, .l2, .l3 {
+  font-size: 12px;
+  height: 62px;
+
+}
+
+.bottom-section{
+ 
+  margin-top: 10px;
+  bottom: 110px;
+ }
+
+ .feed{
+  height: 500px;
+  
+ }
+
+
+input{
+  margin-top: 0px;
+  width: 80%;
+  margin-bottom: 0px;
+  
+}
+
+.e3, .c3, .l3{
+  margin-bottom: 0px;
+}
+
+.e1, .c1, .l1{
+  margin-top: 0px;
+}
+
+#submit {
+  
+  position: relative; /* Change the position to relative */
+  display: flex;
+  align-items: center; /* Vertically center the arrow */
+  justify-content: center; /* Horizontally center the arrow */
+}
+
+.arrow {
+  position: absolute;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+
+}
