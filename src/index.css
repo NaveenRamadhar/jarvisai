@@ -8,6 +8,7 @@
    margin: 0;
    padding: 0;
    overflow: hidden;
+   background: #438EF2;
  }
  
  .name{
@@ -70,7 +71,6 @@
    flex-direction: column;
    justify-content: space-between;
    
- 
  }
  
  button{ 
@@ -145,11 +145,7 @@
    background-color: #1E69CB;
    padding: 12px 15px;
    border-radius: 5px;
-   box-shadow: rgba(0,0,0, 0.05) 0 54px 55px,
-               rgba(0,0,0, 0.05) 0 -12px 30px,
-               rgba(0,0,0, 0.05) 0 4px 6px,
-               rgba(0,0,0, 0.05) 0 124px 3px,
-               rgba(0,0,0, 0.05) 0 -3px 5px;
+   
   
  
  }
@@ -190,7 +186,7 @@
  
  .feed p{
    color: white;
-   font-size: 14px;
+   font-size: 18px;
    text-align: left;
  }
  
@@ -209,7 +205,8 @@
    border-color: #74B0FF; /* Change the border color for the active title */
  }
 
- 
+
+
 @media only screen and (max-width: 768px) {
   
   .name{
@@ -234,16 +231,23 @@
 
 }
 
+
  .feed{
-  height: 500px;
+  height: 450px;
   
  }
 
+ .centered-content{
+  height: 50px;
+}
 
-input{
-  margin-top: 0px;
+
+
+
+ input{
+  
   width: 80%;
-  margin-bottom: 0px;
+  
   
 }
 
