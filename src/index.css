@@ -209,17 +209,7 @@
    border-color: #74B0FF; /* Change the border color for the active title */
  }
 
- @media only screen 
- and (device-width: 320px) 
- and (device-height: 568px) 
- and (-webkit-device-pixel-ratio: 2) {
-
-  .bottom-section{
-    bottom: 0 !important;
-   }
-
- }
-
+ 
 @media only screen and (max-width: 768px) {
   
   .name{
@@ -243,12 +233,6 @@
   height: 62px;
 
 }
-
-.bottom-section{
- 
-  margin-top: 10px;
-  bottom: 110px;
- }
 
  .feed{
   height: 500px;
